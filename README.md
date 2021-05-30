@@ -1,5 +1,5 @@
 # DFA-in-Javascript
-A straightforward Implementation of a Deterministic Finite Automata (DFA) in Javascript. 
+A straightforward implementation of a "Deterministic Finite Automata" (DFA) in Javascript. 
 
 # Usage
 
