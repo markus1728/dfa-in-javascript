@@ -1,7 +1,7 @@
-# dfa-in-javascript
+# DFA-in-Javascript
 A straightforward Implementation of a Deterministic Finite Automata (DFA) in Javascript. 
 
-# Usage by Example
+# Usage
 
 Create a DFA instance, add the states and the transitions. 
 
