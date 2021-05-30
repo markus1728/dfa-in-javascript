@@ -1,6 +1,10 @@
 # DFA-in-Javascript
 A straightforward implementation of a "Deterministic Finite Automata" (DFA) in Javascript. 
 
+Characteristics of a DFA:
+  - each of its transitions is uniquely determined by its source state and input symbol
+  - reading an input symbol is required for each state transition.
+
 # Usage
 
 Create a DFA instance, add the states and the transitions. 
