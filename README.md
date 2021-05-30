@@ -2,7 +2,21 @@
 A straightforward Implementation of a Deterministic Finite Automata (DFA) in Javascript. 
 
 # Usage by Example
-![header image](https://github.com/markus1728/dfa-in-javascript/examples/DFA_example.png?raw=true)
-![Image](../markus1728/dfa-in-javascript/examples/DFA_example.png?raw=true)
+
 Create a DFA instance, add the states and the instances. 
 
+```javascript
+let ExampleDFA = new DFA()
+ExampleDFA.createState("S0", true, false);
+ExampleDFA.createState("S1", false, true);
+ExampleDFA.createState("S2", false, false);
+ExampleDFA.createState("S3", false, false);
+ExampleDFA.createTransition("S0", "a", "S2");
+ExampleDFA.createTransition("S0", "b", "S3");
+ExampleDFA.createTransition("S1", "a", "S0");
+ExampleDFA.createTransition("S1", "b", "S1");
+ExampleDFA.createTransition("S2", "a", "S0");
+ExampleDFA.createTransition("S2", "b", "S1");
+ExampleDFA.createTransition("S3", "a", "S2");
+ExampleDFA.createTransition("S3", "b", "S3");
+```
