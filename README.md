@@ -23,6 +23,7 @@ ExampleDFA.createTransition("S2", "a", "S0");
 ExampleDFA.createTransition("S2", "b", "S1");
 ExampleDFA.createTransition("S3", "a", "S2");
 ExampleDFA.createTransition("S3", "b", "S3");
+console.log(JSON.stringify(ExampleDFA, null, 4));
 ```
 
 Create the transition-table:
